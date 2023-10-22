@@ -1,7 +1,13 @@
+'use client';
+
+import classNames from 'classnames';
 import Link from 'next/link';
+import { usePathname } from 'next/navigation';
 import { AiFillBug } from 'react-icons/ai';
 
 const NavBar = () => {
+  const currentPath = usePathname();
+
   const links = [
     { label: 'Dashboard', href: '/' },
     { label: 'Issues', href: '/issues' },
@@ -16,7 +22,11 @@ const NavBar = () => {
         {links.map(({ label, href }) => (
           <li key={label}>
             <Link
-              className='text-zinc-500 transition-colors hover:text-zinc-800'
+              className={classNames({
+                'text-zinc-900': href === currentPath,
+                'text-zinc-500': href !== currentPath,
+                'transition-colors hover:text-zinc-800': true,
+              })}
               href={href}
             >
               {label}
