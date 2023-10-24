@@ -3352,10 +3352,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@prisma/engines@npm:5.4.2":
-  version: 5.4.2
-  resolution: "@prisma/engines@npm:5.4.2"
-  checksum: fa11b28ba53091b03c24d7353c293eff50e71b1e60494880701c5b259d9f874a5543e00a2172adf0cd618e9559b0eb6a38fe4a39aeda2740ae23a9545ab1ad9f
+"@prisma/engines@npm:5.5.0":
+  version: 5.5.0
+  resolution: "@prisma/engines@npm:5.5.0"
+  checksum: e18b774ed84872e2c6a6dd4a8dd02194360ceb1dfd8875b7ea345847ffb9e8abb58e9c32b24a4cb683445a19b5fed0da6fe43a4b9176110faf66c8fda446046f
   languageName: node
   linkType: hard
 
@@ -16064,7 +16064,7 @@ __metadata:
     prettier: "npm:^3.0.3"
     prettier-plugin-tailwindcss: "npm:^0.5.6"
     prettier-stylelint: "npm:^0.4.2"
-    prisma: "npm:^5.4.2"
+    prisma: "npm:^5.5.0"
     react: "npm:18.2.0"
     react-dom: "npm:18.2.0"
     react-icons: "npm:^4.11.0"
@@ -17743,14 +17743,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"prisma@npm:^5.4.2":
-  version: 5.4.2
-  resolution: "prisma@npm:5.4.2"
+"prisma@npm:^5.5.0":
+  version: 5.5.0
+  resolution: "prisma@npm:5.5.0"
   dependencies:
-    "@prisma/engines": "npm:5.4.2"
+    "@prisma/engines": "npm:5.5.0"
   bin:
     prisma: build/index.js
-  checksum: 5b115f1a9dcc44d6584be29a156e31355443a8b25c529097073adf68cf46cdf294ec69d1cbbefacf7523e5047429952745bf7d845c47e3df5571cde9c19ff170
+  checksum: aecf477e3d22c0fd2e35e77d4c34d0571090a05933e8ee19df22c816ff4935c28400fc079449aee01cf9663658b959abbc32ab8d89f06b21f17116d2a1f9ac5a
   languageName: node
   linkType: hard
 
