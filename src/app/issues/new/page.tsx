@@ -10,6 +10,7 @@ import { Controller, useForm } from 'react-hook-form';
 import SimpleMDE from 'react-simplemde-editor';
 import { z } from 'zod';
 
+import Spinner from '@/app/components/Spinner';
 import { createIssueSchema } from '@/app/schemas/validationSchemas';
 
 import 'easymde/dist/easymde.min.css';
@@ -27,6 +28,7 @@ const NewIssuePage = () => {
     resolver: zodResolver(createIssueSchema),
   });
   const [error, setError] = useState('');
+  const [isSubmitting, setIsSubmitting] = useState(false);
 
   return (
     <div className='max-w-xl'>
@@ -39,6 +41,7 @@ const NewIssuePage = () => {
         className='space-y-3'
         onSubmit={handleSubmit(async data => {
           try {
+            setIsSubmitting(isSubmitting => !isSubmitting);
             await axios.post('/api/issues', data);
             router.push('/issues');
           } catch (error) {
@@ -66,7 +69,10 @@ const NewIssuePage = () => {
           {errors.description?.message}
         </Text>
 
-        <Button>Submit New Issue</Button>
+        <Button disabled={isSubmitting}>
+          Submit New Issue
+          {isSubmitting && <Spinner />}
+        </Button>
       </form>
     </div>
   );
