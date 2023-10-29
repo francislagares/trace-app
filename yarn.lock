@@ -7219,11 +7219,11 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@vitest/ui@npm:0.34.6":
-  version: 0.34.6
-  resolution: "@vitest/ui@npm:0.34.6"
+"@vitest/ui@npm:0.34.7":
+  version: 0.34.7
+  resolution: "@vitest/ui@npm:0.34.7"
   dependencies:
-    "@vitest/utils": "npm:0.34.6"
+    "@vitest/utils": "npm:0.34.7"
     fast-glob: "npm:^3.3.0"
     fflate: "npm:^0.8.0"
     flatted: "npm:^3.2.7"
@@ -7232,7 +7232,7 @@ __metadata:
     sirv: "npm:^2.0.3"
   peerDependencies:
     vitest: ">=0.30.1 <1"
-  checksum: 4270398399b345a780b7c8eeca19dd556107a8c8bc26165df6fac84cd247939efa4399a00c1bb6d67054f84b43a52bc936df7786a72f8f81b08e13a49b4e75bf
+  checksum: d0430602d37d177392bd640dc61ba7ee7e1cf228e12e966404be0287d0b6d454a5350f34bd6b0d6571727ae5b09125ac90654ed4a7a1f3d38fe98d08f29a08f3
   languageName: node
   linkType: hard
 
@@ -7244,6 +7244,17 @@ __metadata:
     loupe: "npm:^2.3.6"
     pretty-format: "npm:^29.5.0"
   checksum: 6f32f086b8bf0e8125a11b26cad4ce77ad90943590b55cd1ebb1424412d1feb6d404ee4ded523c346a8f222c265251652b4888f2ede769e3d7fce6fb1ee0a620
+  languageName: node
+  linkType: hard
+
+"@vitest/utils@npm:0.34.7":
+  version: 0.34.7
+  resolution: "@vitest/utils@npm:0.34.7"
+  dependencies:
+    diff-sequences: "npm:^29.4.3"
+    loupe: "npm:^2.3.6"
+    pretty-format: "npm:^29.5.0"
+  checksum: 5f26ec5b4a53709a50efdb57aa753e8090b3411e888774f67a0d192eb7f046ed5fcc6884eb3d6275d2674926e724b731e8d28cd3cea96a7f3d27462a0d44af9e
   languageName: node
   linkType: hard
 
@@ -16684,9 +16695,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"msw@npm:^2.0.0":
-  version: 2.0.0
-  resolution: "msw@npm:2.0.0"
+"msw@npm:^2.0.1":
+  version: 2.0.1
+  resolution: "msw@npm:2.0.1"
   dependencies:
     "@bundled-es-modules/cookie": "npm:^2.0.0"
     "@bundled-es-modules/js-levenshtein": "npm:^2.0.1"
@@ -16718,7 +16729,7 @@ __metadata:
       optional: true
   bin:
     msw: cli/index.js
-  checksum: fec01104691253dfff4349c737674338e19a890b51c64b6382bf7fe20ef6c305a4f64d67dc3c3e5511d05835203de604379b609279420bee5bd96c62daeb31a8
+  checksum: d460d66a4aee02a8b07da859ee686be03a0c949ce8f5a853cfc91c2f1412b58bc9eef0ab3f37060410d1139cccd2cce60e281e7f30cb3cf8fca6ac4b4b03cb1b
   languageName: node
   linkType: hard
 
@@ -16855,7 +16866,7 @@ __metadata:
     "@vercel/nft": "npm:^0.24.3"
     "@vitejs/plugin-react": "npm:^4.1.0"
     "@vitest/coverage-v8": "npm:^0.34.6"
-    "@vitest/ui": "npm:0.34.6"
+    "@vitest/ui": "npm:0.34.7"
     autoprefixer: "npm:^10.4.16"
     axios: "npm:^1.6.0"
     classnames: "npm:^2.3.2"
@@ -16885,7 +16896,7 @@ __metadata:
     jest-axe: "npm:^8.0.0"
     jsdom: "npm:^22.1.0"
     lint-staged: "npm:^15.0.2"
-    msw: "npm:^2.0.0"
+    msw: "npm:^2.0.1"
     msw-storybook-addon: "npm:^1.10.0"
     next: "npm:14.0.0"
     postcss: "npm:^8.4.31"
