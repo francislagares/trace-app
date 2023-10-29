@@ -10440,6 +10440,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"delay@npm:^6.0.0":
+  version: 6.0.0
+  resolution: "delay@npm:6.0.0"
+  checksum: 5175e887512d65b2bfe9e1168b5ce7a488de99c1d0af52cb4f799bb13dd7cb0bbbba8a4f5c500a5b03fb42bec8621d6ab59244bd8dfbe9a2bf7b173f25621a10
+  languageName: node
+  linkType: hard
+
 "delayed-stream@npm:~1.0.0":
   version: 1.0.0
   resolution: "delayed-stream@npm:1.0.0"
@@ -16874,6 +16881,7 @@ __metadata:
     cypress: "npm:^13.3.3"
     cypress-vite: "npm:^1.4.2"
     cz-conventional-changelog: "npm:^3.3.0"
+    delay: "npm:^6.0.0"
     easymde: "npm:^2.18.0"
     eslint: "npm:^8.52.0"
     eslint-config-airbnb: "npm:^19.0.4"
@@ -16908,6 +16916,7 @@ __metadata:
     react-dom: "npm:18.2.0"
     react-hook-form: "npm:^7.47.0"
     react-icons: "npm:^4.11.0"
+    react-loading-skeleton: "npm:^3.3.1"
     react-simplemde-editor: "npm:^5.2.0"
     start-server-and-test: "npm:^2.0.1"
     storybook: "npm:^7.5.1"
@@ -19064,6 +19073,15 @@ __metadata:
   version: 18.2.0
   resolution: "react-is@npm:18.2.0"
   checksum: 6eb5e4b28028c23e2bfcf73371e72cd4162e4ac7ab445ddae2afe24e347a37d6dc22fae6e1748632cd43c6d4f9b8f86dcf26bf9275e1874f436d129952528ae0
+  languageName: node
+  linkType: hard
+
+"react-loading-skeleton@npm:^3.3.1":
+  version: 3.3.1
+  resolution: "react-loading-skeleton@npm:3.3.1"
+  peerDependencies:
+    react: ">=16.8.0"
+  checksum: 46ae989a74c59dd3f9ecfd480883f1b7a7b083e1329b618c948b889c218192db26148dfc0632e7b55fe0f8b22ddaf97001b539a5210f37045c3fc5b0adf68edc
   languageName: node
   linkType: hard
 
