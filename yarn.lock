@@ -13618,6 +13618,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+"goober@npm:^2.1.10":
+  version: 2.1.13
+  resolution: "goober@npm:2.1.13"
+  peerDependencies:
+    csstype: ^3.0.10
+  checksum: a322ea3b688e1140e9e69014169563a1a73ea715d4a6edeaf61b59d40eb2c3b70f8269b09bb178d474764ee1772a0b1719c1d45db689e5c557698e468ce94702
+  languageName: node
+  linkType: hard
+
 "gopd@npm:^1.0.1":
   version: 1.0.1
   resolution: "gopd@npm:1.0.1"
@@ -17452,6 +17461,7 @@ __metadata:
     react: "npm:18.2.0"
     react-dom: "npm:18.2.0"
     react-hook-form: "npm:^7.48.2"
+    react-hot-toast: "npm:^2.4.1"
     react-icons: "npm:^4.11.0"
     react-loading-skeleton: "npm:^3.3.1"
     react-markdown: "npm:^9.0.0"
@@ -19644,6 +19654,18 @@ __metadata:
   peerDependencies:
     react: ^16.8.0 || ^17 || ^18
   checksum: 77663276288d3e240da76c469612fec2bfb2dd34ed0512adb8554b8567e89a316c3df62266e51639f66a9a9d50ce175e8dc965f94bc31afecb460ed48333dafa
+  languageName: node
+  linkType: hard
+
+"react-hot-toast@npm:^2.4.1":
+  version: 2.4.1
+  resolution: "react-hot-toast@npm:2.4.1"
+  dependencies:
+    goober: "npm:^2.1.10"
+  peerDependencies:
+    react: ">=16"
+    react-dom: ">=16"
+  checksum: 591ecec3c6adc1cdb70f00165a57baa3d7f75d0d30fa767213c36496bdcc6be2b2e6a3edbf7c04f7d726a1b17dcfb5e7feb2136b04b17c9ccb769894b970f365
   languageName: node
   linkType: hard
 
