@@ -2052,13 +2052,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@commitlint/cli@npm:^18.4.0":
-  version: 18.4.0
-  resolution: "@commitlint/cli@npm:18.4.0"
+"@commitlint/cli@npm:^18.4.1":
+  version: 18.4.1
+  resolution: "@commitlint/cli@npm:18.4.1"
   dependencies:
     "@commitlint/format": "npm:^18.4.0"
     "@commitlint/lint": "npm:^18.4.0"
-    "@commitlint/load": "npm:^18.4.0"
+    "@commitlint/load": "npm:^18.4.1"
     "@commitlint/read": "npm:^18.4.0"
     "@commitlint/types": "npm:^18.4.0"
     execa: "npm:^5.0.0"
@@ -2068,7 +2068,7 @@ __metadata:
     yargs: "npm:^17.0.0"
   bin:
     commitlint: cli.js
-  checksum: 515ab99a1cc3813985a1e70e6ac690bcfdf807c78df3ea8a8f857333228c9d308b43d0160220a1b1ad2e491459474fa42a4c552a5103d45913e4560a6c7ced21
+  checksum: 835d133970a6cdcccb88689af1e92a0642b34a631bc83d05323faea9836a9122e633206a3d6088890ab520057003eb24b84e4e409a5ca1872d52b1daf8ee33d7
   languageName: node
   linkType: hard
 
@@ -2183,9 +2183,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@commitlint/load@npm:^18.4.0":
-  version: 18.4.0
-  resolution: "@commitlint/load@npm:18.4.0"
+"@commitlint/load@npm:^18.4.1":
+  version: 18.4.1
+  resolution: "@commitlint/load@npm:18.4.1"
   dependencies:
     "@commitlint/config-validator": "npm:^18.4.0"
     "@commitlint/execute-rule": "npm:^18.4.0"
@@ -2193,13 +2193,13 @@ __metadata:
     "@commitlint/types": "npm:^18.4.0"
     "@types/node": "npm:^18.11.9"
     chalk: "npm:^4.1.0"
-    cosmiconfig: "npm:^8.0.0"
+    cosmiconfig: "npm:^8.3.6"
     cosmiconfig-typescript-loader: "npm:^5.0.0"
     lodash.isplainobject: "npm:^4.0.6"
     lodash.merge: "npm:^4.6.2"
     lodash.uniq: "npm:^4.5.0"
     resolve-from: "npm:^5.0.0"
-  checksum: dd76f8b8c616b5b6083625db3f599f10414ef9014b034da0228650f3d94cf2945854ffdf8730fe36ce050ba0db73501333c3775d60002847265df2f3edf2afe7
+  checksum: 1329151b842dc4640488cd83da5d9e4f13fd1ace172c65c30956357acc7b0f868e2b743ff0de11103cfc25ebb60a9fc6f38a0a2474efc3ec87e02a93095788bc
   languageName: node
   linkType: hard
 
@@ -6096,18 +6096,18 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@tanstack/query-core@npm:5.8.1":
-  version: 5.8.1
-  resolution: "@tanstack/query-core@npm:5.8.1"
-  checksum: 9708175466032119ae412034b65920cb3c94805af099a11906e90bc01aba8b71979d85938ae596826bf2acf8b59c0d3cb1a534eca70a3e093088f635020ea57e
+"@tanstack/query-core@npm:5.8.2":
+  version: 5.8.2
+  resolution: "@tanstack/query-core@npm:5.8.2"
+  checksum: cf39e331e000866af1c6e5e20740b9620a124d75b2b774a80ab9187c85cb43f57b7b534d71a2282881990c172012ba4e76695627817608354146d6bc44df2fcd
   languageName: node
   linkType: hard
 
-"@tanstack/react-query@npm:^5.8.1":
-  version: 5.8.1
-  resolution: "@tanstack/react-query@npm:5.8.1"
+"@tanstack/react-query@npm:^5.8.2":
+  version: 5.8.2
+  resolution: "@tanstack/react-query@npm:5.8.2"
   dependencies:
-    "@tanstack/query-core": "npm:5.8.1"
+    "@tanstack/query-core": "npm:5.8.2"
   peerDependencies:
     react: ^18.0.0
     react-dom: ^18.0.0
@@ -6117,7 +6117,7 @@ __metadata:
       optional: true
     react-native:
       optional: true
-  checksum: f97b239a7c6257706dd5d045fc71bbed6b62dfba7b7f202b3ddf1f4852737612bb0058876498ae9a2fbfdf9a4b47689d2645af07dabcf78e6ed2c2e1e0dff1d5
+  checksum: 9eb9be362b0c716d2b9ddf1d382edfb9c9b26a0eb88f2431ad71edfb30576f41b3563e651bf76a99605bb5b52dcc8c16d4d5b36364e4ba4ff89fe593a4e1c846
   languageName: node
   linkType: hard
 
@@ -7280,11 +7280,11 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@vitest/ui@npm:0.34.7":
-  version: 0.34.7
-  resolution: "@vitest/ui@npm:0.34.7"
+"@vitest/ui@npm:0.34.6":
+  version: 0.34.6
+  resolution: "@vitest/ui@npm:0.34.6"
   dependencies:
-    "@vitest/utils": "npm:0.34.7"
+    "@vitest/utils": "npm:0.34.6"
     fast-glob: "npm:^3.3.0"
     fflate: "npm:^0.8.0"
     flatted: "npm:^3.2.7"
@@ -7293,7 +7293,7 @@ __metadata:
     sirv: "npm:^2.0.3"
   peerDependencies:
     vitest: ">=0.30.1 <1"
-  checksum: d0430602d37d177392bd640dc61ba7ee7e1cf228e12e966404be0287d0b6d454a5350f34bd6b0d6571727ae5b09125ac90654ed4a7a1f3d38fe98d08f29a08f3
+  checksum: 4270398399b345a780b7c8eeca19dd556107a8c8bc26165df6fac84cd247939efa4399a00c1bb6d67054f84b43a52bc936df7786a72f8f81b08e13a49b4e75bf
   languageName: node
   linkType: hard
 
@@ -7305,17 +7305,6 @@ __metadata:
     loupe: "npm:^2.3.6"
     pretty-format: "npm:^29.5.0"
   checksum: 6f32f086b8bf0e8125a11b26cad4ce77ad90943590b55cd1ebb1424412d1feb6d404ee4ded523c346a8f222c265251652b4888f2ede769e3d7fce6fb1ee0a620
-  languageName: node
-  linkType: hard
-
-"@vitest/utils@npm:0.34.7":
-  version: 0.34.7
-  resolution: "@vitest/utils@npm:0.34.7"
-  dependencies:
-    diff-sequences: "npm:^29.4.3"
-    loupe: "npm:^2.3.6"
-    pretty-format: "npm:^29.5.0"
-  checksum: 5f26ec5b4a53709a50efdb57aa753e8090b3411e888774f67a0d192eb7f046ed5fcc6884eb3d6275d2674926e724b731e8d28cd3cea96a7f3d27462a0d44af9e
   languageName: node
   linkType: hard
 
@@ -9990,6 +9979,23 @@ __metadata:
     parse-json: "npm:^5.0.0"
     path-type: "npm:^4.0.0"
   checksum: 4180aa6d1881b75ba591b2fc04b022741a3a4b67e9e243c0eb8d169b6e1efbd3cdf7e8ca19243c0f2e53a9d59ac3eccd5cad5f95f487fcbf4e740f9e86745747
+  languageName: node
+  linkType: hard
+
+"cosmiconfig@npm:^8.3.6":
+  version: 8.3.6
+  resolution: "cosmiconfig@npm:8.3.6"
+  dependencies:
+    import-fresh: "npm:^3.3.0"
+    js-yaml: "npm:^4.1.0"
+    parse-json: "npm:^5.2.0"
+    path-type: "npm:^4.0.0"
+  peerDependencies:
+    typescript: ">=4.9.5"
+  peerDependenciesMeta:
+    typescript:
+      optional: true
+  checksum: 0382a9ed13208f8bfc22ca2f62b364855207dffdb73dc26e150ade78c3093f1cf56172df2dd460c8caf2afa91c0ed4ec8a88c62f8f9cd1cf423d26506aa8797a
   languageName: node
   linkType: hard
 
@@ -14171,7 +14177,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"import-fresh@npm:^3.0.0, import-fresh@npm:^3.2.1":
+"import-fresh@npm:^3.0.0, import-fresh@npm:^3.2.1, import-fresh@npm:^3.3.0":
   version: 3.3.0
   resolution: "import-fresh@npm:3.3.0"
   dependencies:
@@ -15803,9 +15809,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"lint-staged@npm:^15.0.2":
-  version: 15.0.2
-  resolution: "lint-staged@npm:15.0.2"
+"lint-staged@npm:^15.1.0":
+  version: 15.1.0
+  resolution: "lint-staged@npm:15.1.0"
   dependencies:
     chalk: "npm:5.3.0"
     commander: "npm:11.1.0"
@@ -15816,10 +15822,10 @@ __metadata:
     micromatch: "npm:4.0.5"
     pidtree: "npm:0.6.0"
     string-argv: "npm:0.3.2"
-    yaml: "npm:2.3.3"
+    yaml: "npm:2.3.4"
   bin:
     lint-staged: bin/lint-staged.js
-  checksum: 5c8806137c8c9c63e1156e16f2a2763586a9eab8f24713b95bbfd099308c83f85af2df622fdc326a9f0e455e657718f61f6d4a81067a5c77243e65e822c8f16c
+  checksum: d427408be98df7558e918593cb765d5caaa67a5cdca89671fb54280a6c959f4e448db36d4f85e8e0bd9c2c1e996aa133916925cf47c9df573b47308d5e298d84
   languageName: node
   linkType: hard
 
@@ -17373,7 +17379,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "nextjs-typescript-starter@workspace:."
   dependencies:
-    "@commitlint/cli": "npm:^18.4.0"
+    "@commitlint/cli": "npm:^18.4.1"
     "@commitlint/config-conventional": "npm:^18.4.0"
     "@hookform/resolvers": "npm:^3.3.2"
     "@next-auth/prisma-adapter": "npm:^1.0.7"
@@ -17389,7 +17395,7 @@ __metadata:
     "@storybook/react-vite": "npm:^7.5.3"
     "@storybook/testing-library": "npm:^0.2.2"
     "@tailwindcss/typography": "npm:^0.5.10"
-    "@tanstack/react-query": "npm:^5.8.1"
+    "@tanstack/react-query": "npm:^5.8.2"
     "@testing-library/cypress": "npm:^10.0.1"
     "@testing-library/dom": "npm:^9.3.3"
     "@testing-library/jest-dom": "npm:^6.1.4"
@@ -17403,7 +17409,7 @@ __metadata:
     "@vercel/nft": "npm:^0.24.3"
     "@vitejs/plugin-react": "npm:^4.1.1"
     "@vitest/coverage-v8": "npm:^0.34.6"
-    "@vitest/ui": "npm:0.34.7"
+    "@vitest/ui": "npm:0.34.6"
     autoprefixer: "npm:^10.4.16"
     axios: "npm:^1.6.1"
     classnames: "npm:^2.3.2"
@@ -17433,7 +17439,7 @@ __metadata:
     husky: "npm:^8.0.3"
     jest-axe: "npm:^8.0.0"
     jsdom: "npm:^22.1.0"
-    lint-staged: "npm:^15.0.2"
+    lint-staged: "npm:^15.1.0"
     msw: "npm:^2.0.5"
     msw-storybook-addon: "npm:^1.10.0"
     next: "npm:14.0.2"
@@ -24205,10 +24211,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"yaml@npm:2.3.3":
-  version: 2.3.3
-  resolution: "yaml@npm:2.3.3"
-  checksum: a0c56bf682159b0567e9cbbddf23efc2f6806f6450716d9be6ec5eb1af1b941e95c8d3dc9c47da20d1b6883a9d6c61e31cf98bb4b77ebca4396bf772657f2f00
+"yaml@npm:2.3.4":
+  version: 2.3.4
+  resolution: "yaml@npm:2.3.4"
+  checksum: cf03b68f8fef5e8516b0f0b54edaf2459f1648317fc6210391cf606d247e678b449382f4bd01f77392538429e306c7cba8ff46ff6b37cac4de9a76aff33bd9e1
   languageName: node
   linkType: hard
 
