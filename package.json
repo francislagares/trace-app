@@ -23,7 +23,8 @@
     "lint": "eslint --ext js,jsx,ts,tsx --fix --ignore-path .gitignore .",
     "format": "prettier --ignore-path .gitignore \"src/**/*.+(ts|js|tsx|json|md)\" --write",
     "stylelint": "stylelint **/*.{css,scss,tsx,js} --fix",
-    "prepare": "husky install"
+    "prepare": "husky install",
+    "postinstall": "prisma generate"
   },
   "husky": {
     "hooks": {
@@ -53,7 +54,7 @@
     "react-loading-skeleton": "^3.3.1",
     "react-markdown": "^9.0.1",
     "react-simplemde-editor": "^5.2.0",
-    "recharts": "2.8.0",
+    "recharts": "2.10.1",
     "zod": "^3.22.4"
   },
   "devDependencies": {
@@ -80,7 +81,7 @@
     "@typescript-eslint/parser": "^6.11.0",
     "@vitejs/plugin-react": "^4.2.0",
     "@vitest/coverage-v8": "^0.34.6",
-    "@vitest/ui": "0.34.6",
+    "@vitest/ui": "0.34.7",
     "autoprefixer": "^10.4.16",
     "commitizen": "^4.3.0",
     "cypress": "^13.5.1",
